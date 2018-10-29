@@ -1,0 +1,108 @@
+body{
+  width:5000px;
+  height:5000px;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  cursor: none;
+  background: #f9f9f9;
+
+
+
+/* width: 100%;
+height: 100%; */
+
+}
+
+
+
+div{
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 65px;
+width: 65px;
+border: .75pt solid black;
+background: white;
+cursor: none;
+}
+div2{
+  font-size: 3.5em;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  -webkit-text-stroke-width: .75pt;
+  -webkit-text-stroke-color: black;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+
+}
+.ui-draggable-dragging{
+  cursor: none;
+}
+
+img{
+  width: inherit;
+  height: inherit;
+}
+
+message{
+  font-size: 3.5em;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  -webkit-text-stroke-width: .75pt;
+  -webkit-text-stroke-color: black;
+  position: fixed;
+  padding-left: 50px;
+  padding-top: 50px;
+  /* left: 50%;
+  top: 50%;
+  transform: translateX(-50%); */
+  /* transform: translateY(-50%); */
+  display: none;
+  text-align: left;
+  z-index: 1;
+
+}
+
+message:hover{
+cursor: none;
+
+}
+
+instruc{
+  font-family: sans-serif;
+  position: fixed;
+  left: 25px;
+  top: 25px;
+
+}
+instruc:hover{
+  cursor: none;
+}
+
+.mycursor {
+ 	cursor: none;
+ 	width: 48px;
+ 	height: 48px;
+ 	background: url(images/asset_1.svg) no-repeat left top;
+ 	position: absolute;
+ 	display: none;
+ 	top: 0;
+ 	left: 0;
+ 	z-index: 10000;
+}
+
+background{
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  background: #f9f9f9;
+}
+ /* .is-pointer-down added when the user's pointer (mouse, touch, pointer) first presses down.
+ .is-dragging added when elements starts to drag. */
